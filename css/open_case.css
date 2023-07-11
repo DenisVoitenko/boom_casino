@@ -1,0 +1,44 @@
+body {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+
+    background:
+        url(../images/desktop/logo.png) 50% 0% no-repeat,
+        url(../images/desktop/image\ 11.png) 0% 100% no-repeat,
+        url(../images/desktop/image\ 12.png) 100% 100% no-repeat,
+        url(../images/desktop/image\ 15.png) 0% 100% no-repeat,
+        url(../images/desktop/image\ 10.png) 100% 100% no-repeat, 
+        url(../images/desktop/background/purple-forest-with-stone-middle-blue-light-left\ 1.png) 0% 0%/100% 100% no-repeat;
+}
+
+.container_main {
+    margin: 20% auto;
+}
+
+.container_cace {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.block_case {
+    margin: 0px;
+    padding: 0px;
+    z-index: -1;
+    height: 700px;
+    width: 700px;
+    left: 30%;
+    text-align: center;
+    position: absolute;
+}
+
+.gradient {
+    background: url(../images/desktop/GRADIENT\ BG\ 1.png) 0% 0% no-repeat;
+    background-position: center;
+}
+
+
+.red {
+    border: 2px solid red;
+}

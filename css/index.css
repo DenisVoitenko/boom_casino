@@ -1,4 +1,5 @@
 body {
+    overflow: hidden;
     margin: 0px;
     padding: 0px;
     width: 100%;
@@ -14,8 +15,13 @@ body {
         url(../images/desktop/background/purple-forest-with-stone-middle-blue-light-left\ 1.png) 0% 0%/100% 100% no-repeat;
 }
 
-.container_surpryse {
-    margin: 300px 0px 0px 0px;
+.container_main {
+    margin-top: 20%;
+    margin-bottom: 10%;
+}
+
+.container_button_game {
+    margin-top: 10%;
 }
 
 .button_game {
@@ -29,6 +35,13 @@ body {
 
     background-color: none;
     background: url(../images/desktop/image\ 16.png);
+}
+
+.key_block {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
 }
 
 .red {
