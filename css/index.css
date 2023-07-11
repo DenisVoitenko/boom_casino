@@ -1,6 +1,8 @@
 body {
+    margin: 0px;
+    padding: 0px;
     width: 100%;
-    height: 550px;
+    height: 100%;
     background: 
         url(../images/desktop/logo.png) 50% 0% no-repeat,
         url(../images/desktop/Выбери\ сундук\,\ за\ ним\ скрывается\ твой\ клад.png) 50% -700%/930px 45px no-repeat,
@@ -9,17 +11,16 @@ body {
         url(../images/desktop/image\ 12.png) 100% 100% no-repeat,
         url(../images/desktop/image\ 15.png) 0% 100% no-repeat,
         url(../images/desktop/image\ 10.png) 100% 100% no-repeat,
-        url(../images/desktop/background/purple-forest-with-stone-middle-blue-light-left\ 1.png) 0% 0%/100% 1000px no-repeat;
+        url(../images/desktop/background/purple-forest-with-stone-middle-blue-light-left\ 1.png) 0% 0%/100% 100% no-repeat;
 }
 
 .container_surpryse {
-    margin: 20% auto;
+    margin: 300px 0px 0px 0px;
 }
 
 .button_game {
     width: 230px;
     height: 75px;
-    align-items: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 700;
     font-size: 32px;
@@ -28,4 +29,8 @@ body {
 
     background-color: none;
     background: url(../images/desktop/image\ 16.png);
+}
+
+.red {
+    border: 2px solid red;
 }
